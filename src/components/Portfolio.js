@@ -4,6 +4,7 @@ function Portfolio(props) {
   return (
     <div>
       Portfolio
+      Projects go here
     </div>
   );
 }
