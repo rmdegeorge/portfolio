@@ -6,7 +6,7 @@ const NavContainer = styled.nav`
   display: flex;
   align-items: center;
   width: 100vw;
-  background-color: grey;
+  background-color: lightblue;
   padding: 20px 20px 20px 20px;
 `;
 
@@ -32,12 +32,12 @@ const Name = styled.div`
 const JobTitle = styled.div``;
 
 const LinkContainer = styled.div`
-  
+
 `;
 const NavLink = styled(Link)`
   text-decoration: none;
   color: #000000;
-  padding: 10px;
+  margin: 10px;
 
   :hover {
     border-bottom: 2px solid #000000;
@@ -60,7 +60,7 @@ function Navbar(props) {
       <LinkContainer>
         <NavLink to='/Portfolio'>Portfolio</NavLink>
         <NavLink to='/About'>About</NavLink>
-        <NavLink to='/Contact'></NavLink>
+        <NavLink to='/Contact'>Contact</NavLink>
       </LinkContainer>
     </NavContainer>
   );
