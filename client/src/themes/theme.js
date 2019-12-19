@@ -1,10 +1,12 @@
+import { media } from "../themes/GlobalStyle";
+
 const theme = {
   colors: {
     primary: "",
     secondary: "",
     accent: "",
-    fontColor: "",
-
-  }
-}
+    fontColor: ""
+  },
+  media
+};
 export default theme;
