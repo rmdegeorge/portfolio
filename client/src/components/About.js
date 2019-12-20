@@ -20,10 +20,7 @@ const HeadshotImage = styled.img`
 function About(props) {
   return (
     <AboutContainer>
-      <AboutHeader>
-        <h1>About Rob</h1>
-        <h2></h2>
-      </AboutHeader>
+      <AboutHeader>About Rob</AboutHeader>
       <AboutBody>
         <div>
           <HeadshotImage src={headshot} alt="Picture of Rob" />
