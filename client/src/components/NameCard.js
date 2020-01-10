@@ -6,8 +6,10 @@ import robheadshot from "../img/headshot_icon.png";
 const NameCardWrapper = styled.div`
   width: 300px;
   height: 350px;
-  box-shadow: 5px 5px 15px #a0a0a0;
-  margin: 50px auto 0 auto;
+  box-shadow: 5px 5px 15px #000000;
+  margin: 0 auto 0 auto;
+  background-color: rgba(80, 70, 60, 0.75);
+  border-radius: 10px;
 `;
 const Headshot = styled.img`
   position: relative;
@@ -31,7 +33,7 @@ const Name = styled.h1`
   text-align: center;
   margin: 0 auto 0 auto;
 `;
-const JobTitle = styled.h2`
+const JobTitle = styled.h3`
   position: relative;
   top: 70px;
   text-align: center;
