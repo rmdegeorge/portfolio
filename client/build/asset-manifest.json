@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50504dc5.chunk.css",
+    "main.js": "/static/js/main.5d295ae5.chunk.js",
+    "main.js.map": "/static/js/main.5d295ae5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c7cc6e23.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c7cc6e23.js.map",
+    "static/js/2.187d0aff.chunk.js": "/static/js/2.187d0aff.chunk.js",
+    "static/js/2.187d0aff.chunk.js.map": "/static/js/2.187d0aff.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fc3d156b13aa87e11aeef12eafa83eda.js": "/precache-manifest.fc3d156b13aa87e11aeef12eafa83eda.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.50504dc5.chunk.css.map": "/static/css/main.50504dc5.chunk.css.map",
+    "static/js/2.187d0aff.chunk.js.LICENSE": "/static/js/2.187d0aff.chunk.js.LICENSE",
+    "static/media/background.41f88693.jpg": "/static/media/background.41f88693.jpg",
+    "static/media/forum-screenshot.89ca297e.png": "/static/media/forum-screenshot.89ca297e.png",
+    "static/media/headshot_icon.2e127cc5.png": "/static/media/headshot_icon.2e127cc5.png",
+    "static/media/jm-wellness-screenshot.b9faefbb.png": "/static/media/jm-wellness-screenshot.b9faefbb.png",
+    "static/media/global.css": "/static/media/muli-v19-latin-regular.fbc1936a.eot",
+    "static/media/space-race-screenshot.34d5d6ee.png": "/static/media/space-race-screenshot.34d5d6ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7cc6e23.js",
+    "static/js/2.187d0aff.chunk.js",
+    "static/css/main.50504dc5.chunk.css",
+    "static/js/main.5d295ae5.chunk.js"
+  ]
+}

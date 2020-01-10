@@ -8,7 +8,7 @@ const NameCardWrapper = styled.div`
   height: 350px;
   box-shadow: 5px 5px 15px #000000;
   margin: 0 auto 0 auto;
-  background-color: rgba(80, 70, 60, 0.75);
+  background-color: rgb(236, 236, 236, 0.75);
   border-radius: 10px;
 `;
 const Headshot = styled.img`

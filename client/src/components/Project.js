@@ -5,7 +5,7 @@ const ProjectWrapper = styled.div`
   width: 350px;
   height: 300px;
   box-shadow: 5px 5px 15px #000000;
-  background-color: rgb(80, 70, 60, 0.75);
+  background-color: rgb(236, 236, 236, 0.75);
   border-radius: 10px;
   overflow: hidden;
 `;
@@ -26,7 +26,13 @@ export default function ProjectCard(props) {
   return (
     <ProjectWrapper>
       <ProjectTitle>
-        <ProjectLink href={props.link}>{props.title}</ProjectLink>
+        <ProjectLink
+          href={props.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {props.title}
+        </ProjectLink>
       </ProjectTitle>
       <ProjectImg src={props.img} />
     </ProjectWrapper>

@@ -36,12 +36,12 @@ function App(props) {
           img={jmwellnessimg}
         />
         <ProjectCard
-          link="robforum.herokuapp.com"
+          link="https://robforum.herokuapp.com/"
           title="Forum Website"
           img={forumimg}
         />
         <ProjectCard
-          link="space-race.surge.sh"
+          link="http://space-race.surge.sh"
           title="Space X Info"
           img={spaceraceimg}
         />
