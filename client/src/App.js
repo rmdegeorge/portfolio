@@ -1,26 +1,18 @@
-import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import React from "react";
+import styled from "styled-components";
 
-import GlobalStyle from './themes/GlobalStyle';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
-import Contact from './components/Contact';
+import GlobalStyle from "./themes/GlobalStyle";
+import NameCard from "./components/NameCard";
+
+const AppWrapper = styled.div``;
 
 function App(props) {
   return (
-    <div>
+    <AppWrapper>
       <GlobalStyle />
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/About" component={About} />
-        <Route path="/Portfolio" component={Portfolio} />
-        <Route path="/Contact" component={Contact} />
-      </Switch>
-    </div>
+      <NameCard />
+    </AppWrapper>
   );
-};
+}
 
 export default App;
