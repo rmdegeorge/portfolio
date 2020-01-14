@@ -20,18 +20,39 @@ const ProjectsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  padding: 0 50px 50px 50px;
+  justify-content: center;
+  padding: 0 50px 0 50px;
   width: 100%;
 `;
-const ProjectsHeading = styled.h1``;
+const ProjectsHeading = styled.h1`
+  color: rgb(182, 185, 186);
+`;
 const ContactWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(236, 236, 236, 0.75);
+  width: 350px;
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0 auto 50px auto;
+  > a {
+    margin: 10px;
+    color: #000000;
+    text-decoration: none;
+
+    :hover {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
 `;
-const ContactHeading = styled.h1``;
+const ContactHeading = styled.h1`
+  color: rgb(182, 185, 186);
+`;
+
 function App(props) {
   return (
     <AppWrapper>
