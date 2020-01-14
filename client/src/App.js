@@ -14,21 +14,30 @@ const AppWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 150px 0 0 0;
+  padding: 75px 0 0 0;
 `;
 const ProjectsWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  padding: 50px;
+  padding: 0 50px 50px 50px;
   width: 100%;
 `;
-
+const ProjectsHeading = styled.h1``;
+const ContactWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+const ContactHeading = styled.h1``;
 function App(props) {
   return (
     <AppWrapper>
       <GlobalStyle />
       <NameCard />
+      <ProjectsHeading>Projects</ProjectsHeading>
       <ProjectsWrapper>
         <ProjectCard
           link="http://jaspermoonwellness.herokuapp.com/Classes"
@@ -46,6 +55,12 @@ function App(props) {
           img={spaceraceimg}
         />
       </ProjectsWrapper>
+      <ContactHeading>Contact</ContactHeading>
+      <ContactWrapper>
+        <a href="">Email</a>
+        <a href="https://www.linkedin.com/in/robdegeorge/">LinkedIn</a>
+        <a href="https://github.com/rmdegeorge">GitHub</a>
+      </ContactWrapper>
     </AppWrapper>
   );
 }

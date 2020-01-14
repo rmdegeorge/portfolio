@@ -8,6 +8,7 @@ const ProjectWrapper = styled.div`
   background-color: rgb(236, 236, 236, 0.75);
   border-radius: 10px;
   overflow: hidden;
+  margin: 0 10px 10px 30px;
 `;
 const ProjectTitle = styled.h2`
   text-align: center;
