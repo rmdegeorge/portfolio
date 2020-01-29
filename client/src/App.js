@@ -78,7 +78,7 @@ function App(props) {
       </ProjectsWrapper>
       <ContactHeading>Contact</ContactHeading>
       <ContactWrapper>
-        <a href="">Email</a>
+        <a href="mailto:rmdegeorge@gmail.com">Email</a>
         <a href="https://www.linkedin.com/in/robdegeorge/">LinkedIn</a>
         <a href="https://github.com/rmdegeorge">GitHub</a>
       </ContactWrapper>
